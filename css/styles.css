@@ -40,8 +40,255 @@
 }
 
 .icon-container {
+  align-self: center;  
+}
+
+.img-container {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 50px;
+}
+
+.presentation {  
+  width: 100%;
+}
+
+.main-text {
   align-self: center;
-  justify-self: center;
+}
+
+.orange-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  line-height: 81px;
+  color: #F55800;
+  padding-bottom: 24px;
+}
+
+.grey-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+
+.grey-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+}
+.side-image {
+  color: white;
+}
+
+.projects {
+  padding-top: 135px;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.line {
+  height: 1px;
+  width: 794px;
+  margin-right: 150px;
+  border: 1px solid #212121;
+  margin-left: 24px;
+}
+
+.line2 {
+  margin-top: 139px;
+  height: 1px;  
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 1px solid #f4f5f7;
+  margin-bottom: 150px;
+}
+
+.projects-container {
+  margin-top: 114px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.projects-container2 {
+  margin-top: 24px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.projects-title {
+  padding-left: 150px;
+  color: #091e42;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.main-project-image {
+  width: 684px;
+  height: 448px;
+}
+
+.main-project-text {
+  width: 472px;
+  margin-left: 24px;
+}
+
+.main-project-text-title {
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  margin-bottom: 24px;
+}
+
+.main-project-text-content {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.tag1 {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  margin-bottom: 24px;
+}
+
+.project-showcase-main {  
+  height: 435px;
+  width: 33%;
+}
+
+.project-showcase {
+  height: 435px;
+  width: 33%;
+  margin-left: 24px;
+  background: linear-gradient(179.29deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+}
+
+
+.project-live {
+  background: #F55800;
+  padding: 12px;
+  margin-right: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.project-showcase-title-card {
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+
+.project-showcase-content-card {
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+
+.project-showcase-tag-container {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  color: #ffffff;  
+}
+
+.project-showcase-tag {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.personal-info {
+  width: 100%;
+  background: #262626;
+  padding-bottom: 150px;
+}
+
+.personal-info-top {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 130px;
+}
+
+.personal-info-top-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 81px;
+  color: #F55800;
+  margin-bottom: 24px;
+}
+
+.personal-info-top-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+}
+
+.personal-info-top-resume {
+  margin-top: 24px;
+}
+
+.get-resume {
+  background: #F55800;
+  padding: 12px;
+  color: #F4F5F7;
+  text-decoration: none;
+}
+
+.skills {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.skills-title {
+  width: 33%;
+}
+
+.token {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.token-column {
+  margin-top: 24px;
+}
+
+.skills-title-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.shape1 {
+  width: 18px;
+  height: 18px;
+  background: #F55800;
+  transform: rotate(-45deg);
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .nav-item {
