@@ -10,34 +10,37 @@
 </head>
 <body class = "width100 bg-light">
   <div class = "base">
-    <div class = "navigationBar d-flex">
-      <div class = "w-50 padding-left d-flex">
-       <div class = "nav-item-title">
-          Title
-       </div>
-      </div>
-      <div class = "w-50 d-flex justify-content-end padding-right">
+    <div class = "navigationBar d-flex justify-content-center sticky">      
+      <div class = "d-flex justify-content-center">
         <div class = "nav-item px-3">
-          one
+          <a href="#main" class="scroller">
+            Main
+          </a>          
         </div>
         <div class = "nav-item px-3">
-          two
+          <a href="#projects" class="scroller">
+            My works.
+          </a>          
         </div>
         <div class = "nav-item px-3">
-          three
+          <a href="#personal" class="scroller">
+            About me.
+          </a> 
         </div>
         <div class = "nav-item px-3">
-          four
+          <a href="#contact" class="scroller">
+            Contact me.
+          </a> 
         </div>
       </div>
     </div>
-    <div class = "main d-flex">
+    <div class = "main d-flex" id="main">
       <div class = "side-menu d-flex justify-content-center">
         <div class = "icon-container d-flex flex-column">
           <a href="https://github.com/queeksm" class = "img-container">
             <img src="Images/github.png" alt="">
           </a>
-          <a href="https://github.com/queeksm" class = "img-container">
+          <a href="https://www.linkedin.com/in/andresqueeksm/" class = "img-container">
             <img src="Images/Linkedin icon.png" alt="">
           </a>
           <a href="https://github.com/queeksm" class = "img-container">
@@ -47,22 +50,19 @@
       </div>
       <div class = "presentation d-flex">
         <div class = "main-text">
-          <div class = "orange-title">
-            THIS IS A TITLE
+          <div class = "green-title">
+            Welcome to my portfolio.
           </div>
           <div class = "grey-title">
-            THIS IS THE SUBTITLE
+            A brief story:
           </div>
           <div class = "grey-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloribus velit aliquam sunt cum impedit expedita, debitis, error ea officiis labore, doloremque quos. Molestias officiis nemo mollitia eligendi recusandae nulla.
+            I'm a relatively new fullstack programmer, I have been on this wonderful world only for a year, but I would love to share with you my progress during this time.
           </div>
-        </div>
-        <div class = "side-image">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequatur quisquam accusantium pariatur minima ullam. Temporibus rerum nostrum eligendi exercitationem vitae magni quasi facere, possimus vel commodi suscipit minus delectus.
         </div>
       </div> 
     </div>
-    <div class = "projects d-flex flex-column">
+    <div class = "projects d-flex flex-column" id="projects">
      <div class = "d-flex align-items-center">
       <div class = "projects-title">
         My Recent Works
@@ -72,14 +72,15 @@
      </div>
      <div class = "d-flex projects-container">
        <div class = "main-project-image border">
-          image
+        <img src="Images/Capstone1.gif" class="gif1">
        </div>
        <div class = "main-project-text">
           <div class = "main-project-text-title">
-            Titulo
+            Transactions Application
           </div>
           <div class = "main-project-text-content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vitae, placeat ipsam facilis consectetur illum vel voluptate assumenda. Mollitia neque cum consequatur laboriosam hic, ipsa rerum porro vero repellendus voluptatibus?
+            This application was developed fully with Ruby on Rails, it's a simple transaction application that can be used to track payments via groups, it has a fully implemented
+            login and signup. The app is really simple but fully functional and can be expanded.
           </div>
           <div class = "d-flex">
             <div class = "tag1">CSS</div>
@@ -89,116 +90,90 @@
             <div class = "tag1">RUBY</div>
           </div>
           <div class = "d-flex">
-            <a href="#" class = "project-live">
+            <a href="https://intense-anchorage-26906.herokuapp.com/" class = "project-live">
               See Project
             </a>
-            <a href="#" class = "project-live">
+            <a href="https://github.com/queeksm/Rails-Capstone" class = "project-live">
               See GIT
             </a>
           </div>
        </div>
+       
      </div>
-     <div class = "d-flex projects-container2">
-       <div class = "project-showcase-main border ">a</div>
-       <div class = "project-showcase border d-flex flex-column justify-content-end">
-         <div class = "project-showcase-title-card">Title</div>
-         <div class = "project-showcase-content-card">
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit iure velit similique commodi, quo voluptatum! Cumque odit, quidem perferendis dolores nisi harum doloribus et nemo impedit voluptas? Ex, quas.
+
+     <div class = "d-flex projects-container">
+      
+      <div class = "second-project-text">
+         <div class = "main-project-text-title">
+           Newsweek Mock up
          </div>
-         <div class = "project-showcase-tag-container d-flex">
-           <div class = "project-showcase-tag">
-             RUBY
-           </div>
-           <div class = "project-showcase-tag">
-             HTML
-           </div>
-           <div class = "project-showcase-tag">
-             CSS
-           </div>
+         <div class = "main-project-text-content">
+           This project consisted on creating a replica of a Newsweek article using HTML/CSS and Bootstrap.
          </div>
-        </div>
-       <div class = "project-showcase border d-flex flex-column justify-content-end">
-        <div class = "project-showcase-title-card">Title</div>
-        <div class = "project-showcase-content-card">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit iure velit similique commodi, quo voluptatum! Cumque odit, quidem perferendis dolores nisi harum doloribus et nemo impedit voluptas? Ex, quas.
-        </div>
-        <div class = "project-showcase-tag-container d-flex">
-          <div class = "project-showcase-tag">
-            RUBY
-          </div>
-          <div class = "project-showcase-tag">
-            HTML
-          </div>
-          <div class = "project-showcase-tag">
-            CSS
-          </div>
-        </div>
-       </div>
-     </div>
-     <div class = "d-flex projects-container2">
-      <div class = "project-showcase ml-0 d-flex flex-column justify-content-end">
-        <div class = "project-showcase-title-card">Title</div>
-        <div class = "project-showcase-content-card">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit iure velit similique commodi, quo voluptatum! Cumque odit, quidem perferendis dolores nisi harum doloribus et nemo impedit voluptas? Ex, quas.
-        </div>
-        <div class = "project-showcase-tag-container d-flex">
-          <div class = "project-showcase-tag">
-            RUBY
-          </div>
-          <div class = "project-showcase-tag">
-            HTML
-          </div>
-          <div class = "project-showcase-tag">
-            CSS
-          </div>
-        </div>
+         <div class = "d-flex">
+           <div class = "tag1">CSS</div>
+           <div class = "tag1">HTML</div>
+           <div class = "tag1">BOOTSTRAP</div>           
+         </div>
+         <div class = "d-flex">           
+           <a href="https://github.com/queeksm/bootstrap-project" class = "project-live">
+             See GIT
+           </a>
+         </div>
       </div>
-      <div class = "project-showcase  d-flex flex-column justify-content-end">
-        <div class = "project-showcase-title-card">Title</div>
-        <div class = "project-showcase-content-card">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit iure velit similique commodi, quo voluptatum! Cumque odit, quidem perferendis dolores nisi harum doloribus et nemo impedit voluptas? Ex, quas.
-        </div>
-        <div class = "project-showcase-tag-container d-flex">
-          <div class = "project-showcase-tag">
-            RUBY
-          </div>
-          <div class = "project-showcase-tag">
-            HTML
-          </div>
-          <div class = "project-showcase-tag">
-            CSS
-          </div>
-        </div>
+      <div class = "main-project-image border">
+        <img src="Images/Bootstrap1.png" class="gif1">
       </div>
-      <div class = "project-showcase  d-flex flex-column justify-content-end">
-        <div class = "project-showcase-title-card">Title</div>
-        <div class = "project-showcase-content-card">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque reprehenderit iure velit similique commodi, quo voluptatum! Cumque odit, quidem perferendis dolores nisi harum doloribus et nemo impedit voluptas? Ex, quas.
-        </div>
-        <div class = "project-showcase-tag-container d-flex">
-          <div class = "project-showcase-tag">
-            RUBY
-          </div>
-          <div class = "project-showcase-tag">
-            HTML
-          </div>
-          <div class = "project-showcase-tag">
-            CSS
-          </div>
-        </div>
-      </div>
-     </div>
+      
     </div>
-    <div class = "personal-info d-flex flex-column">
+
+    <div class = "d-flex projects-container">
+      <div class = "main-project-image border">
+       <img src="Images/TTT.gif" class="gif1">
+      </div>
+      <div class = "main-project-text">
+         <div class = "main-project-text-title">
+           TIC-TAC-TOE
+         </div>
+         <div class = "main-project-text-content">
+           This is a small and quirky game of Tic-Tac-Toe, developed fully on ruby, it functions fully within the terminal.
+         </div>
+         <div class = "d-flex">
+           <div class = "tag1">RUBY</div>
+           <div class = "tag1">GIT</div>
+         </div>
+         <div class = "d-flex">
+           <a href="https://github.com/queeksm/Tic-Tac-Toe" class = "project-live">
+             See GIT
+           </a>
+         </div>
+      </div>
+      
+    </div>
+     
+    </div>
+    <div class = "personal-info d-flex flex-column" id="personal">
       <div class = "personal-info-top">
         <div class = "personal-info-top-title">
           About me
         </div>
         <div class = "personal-info-top-content">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem iusto optio reiciendis cupiditate, quaerat itaque consequuntur officiis amet non sint sapiente doloremque consectetur voluptatibus natus beatae alias totam veritatis.
+          I'm a full-stack developer with experience in SQL and ORACLE databases, strongly focused on back end development and Database management.  I always love a challenge and constantly push myself to do more than what is expected.
+          <br>
+          I have a short career as a developer but I have acquired some valuable skills during it.
+          <br>
+          - Back-end Development: Ruby on Rails
+          <br>
+          - Databases: MySql | Sql server | ORACLE | Postgres.
+          <br>
+          - Styling: CSS | Bootstrap.
+          <br>
+          Previous to my work as a developer I had some brief contacts with the customer service world, the lessons learned in that world had helped me a lot to grow as a person and as a programmer. I have developed a great sense of teamwork and work ethic.
+          <br>
+          Currently, I'm open to any new opportunity as a developer, and at this moment no challenge is too big. If you'd like to get in contact about potential job opportunities, please reach out!
         </div>
         <div class = "personal-info-top-resume">
-          <a href="#" class = "get-resume">
+          <a href="https://docs.google.com/document/d/1aJhATOPT_fhFtH4p_9o8beWBQryQoIqgM14i9YGusRA/edit?usp=sharing" class = "get-resume">
             Get My Resume
           </a>
         </div>
@@ -214,48 +189,48 @@
             </div>
           </div>
           <div class = "d-flex flex-column token-column">
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
+            <div class = "token">Ruby</div>
+            <div class = "token">Rails</div>
+            <div class = "token">HTML</div>
+            <div class = "token">CSS</div>
           </div>
         </div>
         <div class = "skills-title d-flex flex-column">
           <div class = "d-flex align-items-center">
             <div class = "shape1"></div>
             <div class = "skills-title-text">
-              Languages
+              Frameworks
             </div>
           </div>
           <div class = "d-flex flex-column token-column">
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
+            <div class = "token">Ruby on Rails</div>
+            <div class = "token">Bootstrap</div>
+            <div class = "token">React</div>
+            <div class = "token">Redux</div>
           </div>
         </div>
         <div class = "skills-title d-flex flex-column">
           <div class = "d-flex align-items-center">
             <div class = "shape1"></div>
             <div class = "skills-title-text">
-              Languages
+              Other skills
             </div>
           </div>
           <div class = "d-flex flex-column token-column">
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
-            <div class = "token">Javascript</div>
+            <div class = "token">PostgreSQL</div>
+            <div class = "token">ORACLE</div>
+            <div class = "token">Pair Programming</div>
+            <div class = "token">Remote work</div>
           </div>
         </div>
       </div>
     </div>
-    <div class = "footer">
-      
+    <div class = "footer" id="contact">    
     </div>
   </div>
   
 </body>
+  <script src="scripts/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
